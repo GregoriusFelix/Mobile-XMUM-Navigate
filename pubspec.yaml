@@ -1,0 +1,62 @@
+name: xmum_navigate
+description: Campus companion app for Xiamen University Malaysia
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.0
+  flutter_polyline_points: ^2.0.0
+  # Location
+  geolocator: ^12.0.0
+  # Firebase
+  firebase_core: ^4.11.0
+  firebase_auth: ^6.5.4
+  cloud_firestore: ^6.6.0
+  firebase_storage: ^13.4.3
+  # Social auth
+  google_sign_in: ^6.2.2
+  sign_in_with_apple: ^6.1.4
+  flutter_facebook_auth: ^7.1.2
+  crypto: ^3.0.6
+  # UI
+  cupertino_icons: ^1.0.6
+  image_picker: ^1.0.7
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  google_fonts: ^6.2.1
+  audioplayers: ^5.2.1
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/xmum_navigate_logo.png
+    - assets/images/app_icon_ios.png
+    - assets/images/app_icon_foreground.png
+    - assets/images/marker_office.png
+    - assets/images/marker_dorm.png
+    - assets/images/marker_food.png
+    - assets/images/marker_class.png
+    - assets/images/marker_facilities.png
+    - assets/images/marker_entrance.png
+    - assets/audio/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/app_icon_ios.png
+  adaptive_icon_background: "#19325E"
+  adaptive_icon_foreground: assets/images/app_icon_foreground.png
+  remove_alpha_ios: true

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "616222590394",
+    "project_id": "xmum-navigate",
+    "storage_bucket": "xmum-navigate.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616222590394:android:81e0f761bf0f9fb4e3c983",
+        "android_client_info": {
+          "package_name": "com.example.xmum_navigate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616222590394-b8fpla605f6lcpt9jfi8k8ohe4rnag6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.xmum_navigate",
+            "certificate_hash": "3e1dd9be5ac34fa9960063567f14274f93f62236"
+          }
+        },
+        {
+          "client_id": "616222590394-6pr5pbtmkkk0ph5okj4dbt6dq72a94ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEV6BsJu1Mjn2MD7iQ2qjPl20r5Nirx-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616222590394-6pr5pbtmkkk0ph5okj4dbt6dq72a94ar.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "616222590394-qq4rgjuj0auvv936is831jnlhh9pkadv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.xmumNavigate"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
